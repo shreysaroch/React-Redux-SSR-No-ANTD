@@ -20,7 +20,7 @@
 
 ## Getting started
 ```bash
-$ git clone https://github.com/sandeeppanwar7/react-ssr.git <YOUR_FOLDER_NAME>
+$ git clone https://github.com/shreysaroch/React-Redux-SSR-No-ANTD.git <YOUR_FOLDER_NAME>
 $ cd <YOUR_FOLDER_NAME>
 $ npm install
 $ npm start
