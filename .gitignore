@@ -1,0 +1,11 @@
+.DS_Store
+node_modules
+public/serviceworker.js
+public/dist/*
+build
+npm-debug.log
+/nbproject/
+package-lock.json
+.idea
+.history
+.vscode
