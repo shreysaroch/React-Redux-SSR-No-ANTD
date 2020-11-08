@@ -60,7 +60,7 @@ server.get('*', async (req, res) => {
 });
 
 Loadable.preloadAll().then(() => {
-	server.listen(3003, () => {
+	server.listen(8080, () => {
 		console.log('Running on http://localhost:3003/');
 	});
 }).catch(err => {
