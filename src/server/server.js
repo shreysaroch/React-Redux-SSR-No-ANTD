@@ -61,7 +61,7 @@ server.get('*', async (req, res) => {
 
 Loadable.preloadAll().then(() => {
 	server.listen(8080, () => {
-		console.log('Running on http://localhost:3003/');
+		console.log('Running on http://localhost:8080/');
 	});
 }).catch(err => {
 	console.log(err);
