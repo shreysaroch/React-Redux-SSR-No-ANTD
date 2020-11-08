@@ -1,4 +1,4 @@
-importScripts("/dist/wb-manifest.27195a358fab652ecba4deb584bb5a1c.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts("/dist/wb-manifest.8739ce5d43e5e638dda6985d9fcbe821.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 var DOMAIN_NAME = self.location.origin;
 const url = new URL(location.href);

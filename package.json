@@ -11,7 +11,8 @@
 		"stg": "NODE_APP='stg' webpack --config webpack.config.prod.babel.js --progress --colors",
 		"prod": "npm run stg & npm run dev-server",
 		"production": "NODE_APP='production' && webpack --config webpack.config.prod.babel.js --progress --colors && pm2 start src/server",
-		"serve": "NODE_ENV=production PORT=8081 node src/server"
+		"serve": "NODE_ENV=production PORT=8081 node src/server",
+		"pm2serve": "npm run production && PORT=8081 pm2 start src/server"
 	},
 	"keywords": [],
 	"author": "Shrey Saroch<shrey.saroch@gmail.com>",
