@@ -60,8 +60,8 @@ server.get('*', async (req, res) => {
 });
 
 Loadable.preloadAll().then(() => {
-	server.listen(8080, () => {
-		console.log('Running on http://localhost:8080/');
+	server.listen(8081, () => {
+		console.log('Running on http://localhost:8081/');
 	});
 }).catch(err => {
 	console.log(err);
